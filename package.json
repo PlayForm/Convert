@@ -24,5 +24,9 @@
 	],
 	"scripts": {
 		"build": "lightrix build src/index.ts src/lib/*.ts src/options/index.ts"
+	},
+	"devDependencies": {
+		"@lightrix/config": "0.0.2",
+		"@lightrix/scripts": "0.0.2"
 	}
 }
