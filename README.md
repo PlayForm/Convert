@@ -1,7 +1,6 @@
 # [astro-convert] 🫶
 
-This **[Astro integration][astro-integration]** converts all your files into
-different formats.
+This **[Astro integration][astro-integration]** converts all your files into different formats.
 
 ## Installation
 
