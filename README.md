@@ -1,6 +1,7 @@
 # [astro-convert] 🫶
 
-This **[Astro integration][astro-integration]** converts all your files into different formats.
+This **[Astro integration][astro-integration]** converts all your files into
+different formats.
 
 ## Installation
 
@@ -15,8 +16,8 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `astro-convert`, run the following from your project directory and follow
-the prompts:
+To install `astro-convert`, run the following from your project directory and
+follow the prompts:
 
 ```sh
 # Using NPM
