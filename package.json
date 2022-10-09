@@ -10,8 +10,6 @@
 	"bugs": {
 		"url": "https://github.com/Lightrix/astro-convert/issues"
 	},
-	"author": "nikolaxhristov",
-	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"keywords": [
