@@ -25,6 +25,6 @@
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.3",
-		"@lightrix/scripts": "0.0.3"
+		"@lightrix/scripts": "0.0.4"
 	}
 }
