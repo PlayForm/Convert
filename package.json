@@ -24,7 +24,7 @@
 		"build": "lightrix build src/index.ts src/lib/*.ts src/options/index.ts"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.5",
-		"@lightrix/scripts": "0.0.12"
+		"@lightrix/config": "0.0.6",
+		"@lightrix/scripts": "0.0.13"
 	}
 }
