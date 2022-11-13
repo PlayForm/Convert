@@ -2,7 +2,6 @@
 	"name": "astro-convert",
 	"version": "0.0.1",
 	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Lightrix/astro-convert.git"
@@ -11,6 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/Lightrix/astro-convert/issues"
 	},
+	"license": "MIT",
 	"private": false,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
