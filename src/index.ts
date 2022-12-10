@@ -23,11 +23,6 @@ export default (options: Options = {}): AstroIntegration => {
 	return {
 		name: "astro-convert",
 		hooks: {
-			"astro:config:done": async (options) => {
-				_options.path = _options.path
-					? _options.path
-					: options.config.outDir;
-			},
 			"astro:build:done": async () => {
 				// await pipeAll(_options, _options.logger);
 			},
