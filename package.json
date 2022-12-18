@@ -4,7 +4,7 @@
 	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lightrix/astro-convert.git"
+		"url": "https://github.com/Lightrix/astro-convert.git"
 	},
 	"homepage": "https://github.com/Lightrix/astro-convert#readme",
 	"bugs": {
