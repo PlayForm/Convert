@@ -1,7 +1,12 @@
-import type { AstroIntegration } from "astro";
-import { deepmerge } from "deepmerge-ts";
+import type { optionPath } from "files-pipeline/dist/options/index.js";
 
-import defaultOptions, { Options } from "./options/index.js";
+import defaults from "./options/index.js";
+
+import deepmerge from "files-pipeline/dist/lib/deepmerge.js";
+
+import type { AstroIntegration } from "astro";
+
+import type { Options } from "./options/index.js";
 
 export default (options: Options = {}): AstroIntegration => {
 	for (const option in options) {
@@ -9,22 +14,31 @@ export default (options: Options = {}): AstroIntegration => {
 			Object.prototype.hasOwnProperty.call(options, option) &&
 			options[option] === true
 		) {
-			options[option] = defaultOptions()[option];
+			options[option] = defaults[option];
 		}
 	}
 
-	const _options = deepmerge(defaultOptions(), options);
+	options = deepmerge(defaults, options);
 
-	_options.path = _options.path?.endsWith("/")
-		? _options.path
-		: `${_options.path}/`;
+	const paths = new Set<optionPath>();
+
+	if (typeof options["path"] !== "undefined") {
+		if (
+			options["path"] instanceof Array ||
+			options["path"] instanceof Set
+		) {
+			for (const path of options["path"]) {
+				paths.add(path);
+			}
+		} else {
+			paths.add(options["path"]);
+		}
+	}
 
 	return {
 		name: "astro-convert",
 		hooks: {
-			"astro:build:done": async () => {
-				// await pipeAll(_options, _options.logger);
-			},
+			"astro:build:done": async () => {},
 		},
 	};
 };
