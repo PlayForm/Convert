@@ -27,7 +27,7 @@
 		"build": "lightrix build src/**/*.tsw"
 	},
 	"dependencies": {
-		"files-pipeline": "0.0.3"
+		"files-pipeline": "0.0.4"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.7",
