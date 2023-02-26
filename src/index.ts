@@ -1,8 +1,8 @@
-import type { optionPath } from "files-pipeline/dist/options/index.js";
+import type { optionPath } from "files-pipe/dist/options/index.js";
 
 import defaults from "./options/index.js";
 
-import deepmerge from "files-pipeline/dist/lib/deepmerge.js";
+import deepmerge from "files-pipe/dist/lib/deepmerge.js";
 
 import type { AstroIntegration } from "astro";
 
