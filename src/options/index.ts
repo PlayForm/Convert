@@ -4,8 +4,7 @@ import defaults from "files-pipe/dist/options/index.js";
 import type { Options as OptionsBase } from "files-pipe/dist/options/index.js";
 
 export interface Options extends OptionsBase {
-	// rome-ignore lint/suspicious/noExplicitAny:
-	[key: string]: any;
+	[key: string]: unknown;
 }
 
 export default deepmerge(defaults, {
