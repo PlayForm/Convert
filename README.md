@@ -22,8 +22,14 @@ follow the prompts:
 ```sh
 # Using NPM
 npx astro add astro-convert
+```
+
+```sh
 # Using Yarn
 yarn astro add astro-convert
+```
+
+```sh
 # Using PNPM
 pnpx astro add astro-convert
 ```
