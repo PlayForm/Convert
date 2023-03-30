@@ -19,17 +19,17 @@ command will:
 To install `astro-convert`, run the following from your project directory and
 follow the prompts:
 
-#### Using NPM
+ Using NPM:
 ```sh
 npx astro add astro-convert
 ```
 
-#### Using Yarn
+ Using Yarn:
 ```sh
 yarn astro add astro-convert
 ```
 
-#### Using PNPM
+ Using PNPM:
 ```sh
 pnpx astro add astro-convert
 ```
