@@ -24,7 +24,7 @@
 		"performance"
 	],
 	"scripts": {
-		"build": "lightrix build src/**/*.tsw"
+		"build": "lightrix build src/**/*.ts"
 	},
 	"dependencies": {
 		"files-pipe": "0.0.2"
