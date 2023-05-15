@@ -14,16 +14,16 @@ export default (options: Options = {}): AstroIntegration => {
 		}
 	}
 
-	options = deepmerge(defaults, options);
+	const _options = deepmerge(defaults, options);
 
 	const paths = new Set<optionPath>();
 
-	if (typeof options["path"] !== "undefined") {
+	if (typeof _options["path"] !== "undefined") {
 		if (
-			options["path"] instanceof Array ||
-			options["path"] instanceof Set
+			_options["path"] instanceof Array ||
+			_options["path"] instanceof Set
 		) {
-			for (const path of options["path"]) {
+			for (const path of _options["path"]) {
 				paths.add(path);
 			}
 		}
