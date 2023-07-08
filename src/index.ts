@@ -1,8 +1,8 @@
 import type { optionPath } from "files-pipe/dist/options/index.js";
-import defaults from "./options/index.js";
 import deepmerge from "files-pipe/dist/lib/deepmerge.js";
-import type { AstroIntegration } from "astro";
 import type { Options } from "./options/index.js";
+import type { AstroIntegration } from "astro";
+import defaults from "./options/index.js";
 
 export default (options: Options = {}): AstroIntegration => {
 	for (const option in options) {
