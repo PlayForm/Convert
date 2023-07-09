@@ -19,7 +19,10 @@ export default (options: Options = {}): AstroIntegration => {
 	const paths = new Set<optionPath>();
 
 	if (typeof _options["path"] !== "undefined") {
-		if (_options["path"] instanceof Array || _options["path"] instanceof Set) {
+		if (
+			_options["path"] instanceof Array ||
+			_options["path"] instanceof Set
+		) {
 			for (const path of _options["path"]) {
 				paths.add(path);
 			}
