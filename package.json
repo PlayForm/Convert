@@ -27,11 +27,11 @@
 		"prepublishOnly": "lightrix build 'src/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "0.0.7"
+		"files-pipe": "0.0.8"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.11",
-		"@lightrix/scripts": "1.0.6"
+		"@lightrix/scripts": "1.0.7"
 	},
 	"publishConfig": {
 		"access": "public"
