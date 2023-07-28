@@ -27,7 +27,7 @@
 		"prepublishOnly": "lightrix build 'src/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "0.0.9"
+		"files-pipe": "0.1.0"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.11",
