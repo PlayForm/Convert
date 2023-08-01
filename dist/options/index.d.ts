@@ -1,4 +1,4 @@
-import type { Options as OptionsBase } from "files-pipe/dist/options/index.js";
+import type { Options as OptionsBase } from "files-pipe/dist/options/Index.js";
 export interface Options extends OptionsBase {
     [key: string]: any;
 }
