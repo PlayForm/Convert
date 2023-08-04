@@ -1,6 +1,6 @@
-import Merge from "files-pipe/dist/Lib/Merge.js";
-import type { Options as OptionsBase } from "files-pipe/dist/options/Index.js";
-import defaults from "files-pipe/dist/options/Index.js";
+import Merge from "files-pipe/dist/Library//Merge.js";
+import type { Options as OptionsBase } from "files-pipe/dist/Options/Index.js";
+import defaults from "files-pipe/dist/Options/Index.js";
 
 export interface Options extends OptionsBase {
 	// rome-ignore lint/suspicious/noExplicitAny:
