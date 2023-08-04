@@ -84,10 +84,10 @@ If your path is different than `dist` be sure to update it accordingly:
 import img from "astro-convert";
 
 export default {
-	outDir: "./build",
+	outDir: "./Target",
 	integrations: [
 		img({
-			path: "./build",
+			path: "./Target",
 		}),
 	],
 };
