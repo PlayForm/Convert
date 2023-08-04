@@ -1,8 +1,8 @@
 import type { AstroIntegration } from "astro";
-import deepmerge from "files-pipe/dist/lib/deepmerge.js";
+import Merge from "files-pipe/dist/lib/Merge.js";
 import type { optionPath } from "files-pipe/dist/options/Index.js";
 import type { Options } from "./options/Index.js";
-import defaults from "./options/Index.js";
+import Defaults from "./options/Index.js";
 
 export default (options: Options = {}): AstroIntegration => {
 	for (const option in options) {
@@ -10,11 +10,11 @@ export default (options: Options = {}): AstroIntegration => {
 			Object.prototype.hasOwnProperty.call(options, option) &&
 			options[option] === true
 		) {
-			options[option] = defaults[option];
+			options[option] = Defaults[option];
 		}
 	}
 
-	const _options = deepmerge(defaults, options);
+	const _options = Merge(Defaults, options);
 
 	const paths = new Set<optionPath>();
 
