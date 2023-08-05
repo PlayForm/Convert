@@ -78,7 +78,7 @@ export default {
 };
 ```
 
-If your path is different than `dist` be sure to update it accordingly:
+If your path is different than Astro `outDir` be sure to update it accordingly:
 
 ```ts
 import img from "astro-convert";
