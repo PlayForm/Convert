@@ -24,7 +24,7 @@
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
 	"scripts": {
-		"prepublishOnly": "lightrix build 'Source/**/*.ts'"
+		"prepublishOnly": "Lightrix build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"files-pipe": "0.1.0"
