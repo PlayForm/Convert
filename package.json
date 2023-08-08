@@ -1,6 +1,6 @@
 {
 	"name": "astro-convert",
-	"version": "0.0.1",
+	"version": "2.0.0",
 	"private": false,
 	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
 	"keywords": [
@@ -27,7 +27,7 @@
 		"prepublishOnly": "Lightrix build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "0.1.0"
+		"files-pipe": "2.0.0"
 	},
 	"devDependencies": {
 		"@lightrix/configuration": "0.0.1",

@@ -93,7 +93,7 @@ export default {
 };
 ```
 
-Set `logger` to `0` if you do not want to see debug messages. Default is `2`.
+Set `Logger` to `0` if you do not want to see debug messages. Default is `2`.
 
 ```ts
 import img from "astro-convert";
@@ -101,7 +101,7 @@ import img from "astro-convert";
 export default {
 	integrations: [
 		img({
-			logger: 0,
+			Logger: 0,
 		}),
 	],
 };
