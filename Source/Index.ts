@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 import Merge from "files-pipe/Target/Library/Merge.js";
 import type { Path } from "files-pipe/Target/Options/Index.js";
 import type { Options } from "./Option/Index.js";
-import Defaults from "./Option/Index.js";
+import Default from "./Option/Index.js";
 
 export default (Options: Options = {}): AstroIntegration => {
 	for (const Option in Options) {
@@ -10,11 +10,11 @@ export default (Options: Options = {}): AstroIntegration => {
 			Object.prototype.hasOwnProperty.call(Options, Option) &&
 			Options[Option] === true
 		) {
-			Options[Option] = Defaults[Option];
+			Options[Option] = Default[Option];
 		}
 	}
 
-	const _options = Merge(Defaults, Options);
+	const _options = Merge(Default, Options);
 
 	const paths = new Set<Path>();
 
