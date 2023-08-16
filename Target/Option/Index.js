@@ -1,1 +1,1 @@
-import e from"files-pipe/Target/Library/Merge.js";import t from"files-pipe/Target/Options/Index.js";var p=e(t,{pipe:{}});export{p as default};
+import{Merge as t}from"files-pipe";import e from"files-pipe/Target/Options/Index.js";var o=t(e,{pipe:{}});export{o as default};

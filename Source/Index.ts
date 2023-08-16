@@ -1,10 +1,10 @@
 import type { AstroIntegration } from "astro";
-import Merge from "files-pipe/Target/Library/Merge.js";
-import type { Path } from "files-pipe/Target/Options/Index.js";
-import type { Options } from "./Option/Index.js";
+import type { Path } from "files-pipe";
+import { Merge } from "files-pipe";
+import type { Option } from "./Option/Index.js";
 import Default from "./Option/Index.js";
 
-export default (Options: Options = {}): AstroIntegration => {
+export default (Options: Option = {}): AstroIntegration => {
 	for (const Option in Options) {
 		if (
 			Object.prototype.hasOwnProperty.call(Options, Option) &&
