@@ -1,7 +1,7 @@
 {
 	"name": "astro-convert",
 	"version": "0.0.1",
-	"private": "false",
+	"private": false,
 	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
 	"keywords": [
 		"astro-integration",
