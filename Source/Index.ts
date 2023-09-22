@@ -1,8 +1,12 @@
-import type { AstroIntegration } from "astro";
-import type { Path } from "files-pipe";
-import { Merge } from "files-pipe";
 import type { Option } from "./Option/Index.js";
+
+import type { Path } from "files-pipe";
+
+import type { AstroIntegration } from "astro";
+
 import Default from "./Option/Index.js";
+
+import { Merge } from "files-pipe";
 
 export default (Options: Option = {}): AstroIntegration => {
 	for (const Option in Options) {
