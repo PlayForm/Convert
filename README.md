@@ -78,21 +78,6 @@ export default {
 };
 ```
 
-If your path is different than Astro `outDir` be sure to update it accordingly:
-
-```ts
-import Convert from "astro-convert";
-
-export default {
-	outDir: "./Target",
-	integrations: [
-		Convert({
-			Path: "./Target",
-		}),
-	],
-};
-```
-
 Set `Logger` to `0` if you do not want to see debug messages. Default is `2`.
 
 ```ts
