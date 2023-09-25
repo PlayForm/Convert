@@ -51,10 +51,10 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import img from "astro-convert";
+import Convert from "astro-convert";
 
 export default {
-	integrations: [img()],
+	integrations: [Convert()],
 };
 ```
 
@@ -62,17 +62,17 @@ export default {
 
 You can override any of the default options from the configurations of:
 
--   [sharp](src/Option/img.ts)
+-   [sharp](src/Option/Image.ts)
 
 or disable them entirely:
 
 ```ts
-import img from "astro-convert";
+import Convert from "astro-convert";
 
 export default {
 	integrations: [
-		img({
-			img: false,
+		Convert({
+			Convert: false,
 		}),
 	],
 };
@@ -81,13 +81,13 @@ export default {
 If your path is different than Astro `outDir` be sure to update it accordingly:
 
 ```ts
-import img from "astro-convert";
+import Convert from "astro-convert";
 
 export default {
 	outDir: "./Target",
 	integrations: [
-		img({
-			path: "./Target",
+		Convert({
+			Path: "./Target",
 		}),
 	],
 };
@@ -96,11 +96,11 @@ export default {
 Set `Logger` to `0` if you do not want to see debug messages. Default is `2`.
 
 ```ts
-import img from "astro-convert";
+import Convert from "astro-convert";
 
 export default {
 	integrations: [
-		img({
+		Convert({
 			Logger: 0,
 		}),
 	],
