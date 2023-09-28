@@ -1,6 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var files_pipe_1 = require("files-pipe");
-exports.default = (0, files_pipe_1.Merge)(files_pipe_1.Default, {
-    pipe: {},
-});
+import{Default as e,Merge as t}from"files-pipe";var p=t(e,{pipe:{}});export{p as default};
