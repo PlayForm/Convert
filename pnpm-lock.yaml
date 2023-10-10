@@ -1,0 +1,15 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  files-pipe:
+    specifier: 2.0.19
+    version: link:../FilesPipe
+
+devDependencies:
+  typescript-esbuild:
+    specifier: 0.2.14
+    version: link:../TypeScriptESBuild
