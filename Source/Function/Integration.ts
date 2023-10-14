@@ -1,34 +1,25 @@
-import type { Option } from "./Option/Index.js";
-
-import type { Path } from "files-pipe";
-
-import type { AstroIntegration } from "astro";
-
-import Default from "./Option/Index.js";
-
-import { Merge } from "files-pipe";
-
-export default (Options: Option = {}): AstroIntegration => {
-	for (const Option in Options) {
+/**
+ * @module Integration
+ *
+ */
+export default (_Option: Option = {}): AstroIntegration => {
+	for (const Option in _Option) {
 		if (
-			Object.prototype.hasOwnProperty.call(Options, Option) &&
-			Options[Option] === true
+			Object.prototype.hasOwnProperty.call(_Option, Option) &&
+			_Option[Option] === true
 		) {
-			Options[Option] = Default[Option];
+			_Option[Option] = Default[Option as keyof typeof Default];
 		}
 	}
 
-	const _options = Merge(Default, Options);
+	const { Path } = Merge(Default, _Option);
 
-	const paths = new Set<Path>();
+	const Paths = new Set<Path>();
 
-	if (typeof _options["path"] !== "undefined") {
-		if (
-			Array.isArray(_options["path"]) ||
-			_options["path"] instanceof Set
-		) {
-			for (const path of _options["path"]) {
-				paths.add(path);
+	if (typeof Path !== "undefined") {
+		if (Array.isArray(Path) || Path instanceof Set) {
+			for (const _Path of Path) {
+				Paths.add(_Path);
 			}
 		}
 	}
@@ -37,10 +28,22 @@ export default (Options: Option = {}): AstroIntegration => {
 		name: "astro-convert",
 		hooks: {
 			"astro:build:done": async ({ dir }) => {
-				if (!paths.size) {
-					paths.add(dir);
+				if (!Paths.size) {
+					Paths.add(dir);
 				}
 			},
 		},
 	};
 };
+
+import type Option from "../Interface/Option.js";
+
+import type Path from "files-pipe/Target/Interface/Path.js";
+
+import type { AstroIntegration } from "astro";
+
+export const { default: Default } = await import("../Variable/Option.js");
+
+export const { default: Merge } = await import(
+	"typescript-esbuild/Target/Function/Merge.js"
+);
