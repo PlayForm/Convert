@@ -3,7 +3,7 @@ import type { Option as _Option } from "files-pipe";
 import { Default, Merge } from "files-pipe";
 
 export default interface Option extends _Option {
-	// rome-ignore lint/suspicious/noExplicitAny:
+	// biome-ignore lint/suspicious/noExplicitAny:
 	[key: string]: any;
 }
 
