@@ -41,7 +41,7 @@ pnpx astro add astro-convert
 
 First, install the `astro-convert` integration like so:
 
-```
+```sh
 npm install -D -E astro-convert
 ```
 
