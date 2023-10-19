@@ -35,7 +35,7 @@
 		"files-pipe": "2.0.20"
 	},
 	"devDependencies": {
-		"typescript-esbuild": "0.2.18"
+		"typescript-esbuild": "0.2.19"
 	},
 	"publishConfig": {
 		"access": "public"
