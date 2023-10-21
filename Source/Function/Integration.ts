@@ -2,7 +2,7 @@
  * @module Integration
  *
  */
-export default ((_Option: Option = {}): AstroIntegration => {
+export default ((...[_Option = {}]: Parameters<Type>) => {
 	for (const Option in _Option) {
 		if (
 			Object.prototype.hasOwnProperty.call(_Option, Option) &&
@@ -36,11 +36,9 @@ export default ((_Option: Option = {}): AstroIntegration => {
 	};
 }) satisfies Type as Type;
 
-import type Option from "../Interface/Option.js";
+import type Type from "../Interface/Integration.js";
 
 import type Path from "files-pipe/Target/Type/Path.js";
-
-import type { AstroIntegration } from "astro";
 
 export const { default: Default } = await import("../Variable/Option.js");
 
