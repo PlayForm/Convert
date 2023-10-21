@@ -12,12 +12,12 @@ declare const _default: Omit<{} & {
         Path: string;
         Logger: 2;
         Action: {
-            Read: (On: import("files-pipe/Target/Interface/File").default) => Promise<string>;
-            Wrote: (On: import("files-pipe/Target/Interface/File").default) => Promise<import("files-pipe/Target/Interface/Buffer").Type>;
-            Passed: (On: import("files-pipe/Target/Interface/File").default) => Promise<boolean>;
-            Failed: (On: import("files-pipe/Target/Interface/File").default) => Promise<string>;
-            Accomplished: (On: import("files-pipe/Target/Interface/File").default) => Promise<string>;
-            Fulfilled: (Plan: import("files-pipe/Target/Interface/Plan").default) => Promise<string | false>;
+            Read: ({ Input }: import("files-pipe/Target/Interface/File").default) => Promise<string>;
+            Wrote: ({ Buffer }: import("files-pipe/Target/Interface/File").default) => Promise<import("files-pipe/Target/Type/Buffer").Type>;
+            Passed: (On: import("files-pipe/Target/Interface/File").default) => Promise<true>;
+            Failed: ({ Input }: import("files-pipe/Target/Interface/File").default) => Promise<string>;
+            Accomplished: ({ Input, Output }: import("files-pipe/Target/Interface/File").default) => Promise<string>;
+            Fulfilled: ({ Files }: import("files-pipe/Target/Interface/Plan").default) => Promise<string | false>;
             Changed: (Plan: import("files-pipe/Target/Interface/Plan").default) => Promise<import("files-pipe/Target/Interface/Plan").default>;
         };
         Files: string;
