@@ -2,7 +2,6 @@
  * @module Option
  *
  */
-export default interface Type extends Option {
-    [key: string]: any;
-}
+export type Type = Option;
+export type { Type as default };
 import type Option from "files-pipe/Target/Interface/Option.js";
