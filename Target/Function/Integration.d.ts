@@ -15,13 +15,13 @@ export declare const Default: Omit<{} & {
         Path: string;
         Logger: 2;
         Action: {
-            Read: ({ Input }: import("files-pipe/Target/Interface/File.js").default) => Promise<string>;
-            Wrote: ({ Buffer }: import("files-pipe/Target/Interface/File.js").default) => Promise<import("files-pipe/Target/Type/Buffer.js").Type>;
-            Passed: (On: import("files-pipe/Target/Interface/File.js").default) => Promise<true>;
-            Failed: ({ Input }: import("files-pipe/Target/Interface/File.js").default) => Promise<string>;
-            Accomplished: ({ Input, Output }: import("files-pipe/Target/Interface/File.js").default) => Promise<string>;
-            Fulfilled: ({ Files }: import("files-pipe/Target/Interface/Plan.js").default) => Promise<string | false>;
-            Changed: (Plan: import("files-pipe/Target/Interface/Plan.js").default) => Promise<import("files-pipe/Target/Interface/Plan.js").default>;
+            Read: ({ Input }: any) => Promise<string>;
+            Wrote: ({ Buffer }: any) => Promise<any>;
+            Passed: (On: any) => Promise<true>;
+            Failed: ({ Input }: any) => Promise<string>;
+            Accomplished: ({ Input, Output }: any) => Promise<string>;
+            Fulfilled: ({ Files }: any) => Promise<string | false>;
+            Changed: (Plan: any) => Promise<any>;
         };
         Files: string;
         Exclude: false;
