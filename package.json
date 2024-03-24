@@ -33,7 +33,7 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "2.1.14"
+		"files-pipe": "2.1.15"
 	},
 	"devDependencies": {
 		"typescript-document": "0.0.5",
