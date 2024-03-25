@@ -11,19 +11,19 @@
 		"javascript",
 		"performance"
 	],
-	"homepage": "https://github.com/Playform/AstroConvert#readme",
+	"homepage": "HTTPS://GitHub.Com/Playform/AstroConvert#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/AstroConvert/issues"
+		"url": "HTTPS://GitHub.Com/Playform/AstroConvert/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/AstroConvert.git"
+		"url": "git+HTTPS://GitHub.Com/Playform/AstroConvert.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Playform",
 		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
+		"url": "HTTPS://Playform.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Export.js",
