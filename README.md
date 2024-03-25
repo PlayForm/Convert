@@ -92,7 +92,7 @@ export default {
 };
 ```
 
-[astro-convert]: https://npmjs.org/astro-convert
+[astro-convert]: HTTPS://NPMJS.Org/astro-convert
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
