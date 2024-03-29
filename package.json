@@ -1,5 +1,5 @@
 {
-	"name": "astro-convert",
+	"name": "convert-astro",
 	"version": "0.0.1",
 	"private": false,
 	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
@@ -11,13 +11,13 @@
 		"javascript",
 		"performance"
 	],
-	"homepage": "https://github.com/Playform/AstroConvert#readme",
+	"homepage": "https://github.com/Playform/ConvertAstro#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/AstroConvert/issues"
+		"url": "https://github.com/Playform/ConvertAstro/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/AstroConvert.git"
+		"url": "git+https://github.com/Playform/ConvertAstro.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
