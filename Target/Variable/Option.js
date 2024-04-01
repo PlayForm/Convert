@@ -1,1 +1,1 @@
-var t=(await import("typescript-esbuild/Target/Function/Merge.js")).default(await import("files-pipe/Target/Variable/Option.js"),{Action:{}});export{t as default};
+var t=(await import("@playform/build/Target/Function/Merge.js")).default(await import("@playform/file-pipe/Target/Variable/Option.js"),{Action:{}});export{t as default};
