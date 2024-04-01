@@ -33,7 +33,7 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@playform/file-pipe": "2.1.16"
+		"@playform/file-pipe": "0.0.1"
 	},
 	"devDependencies": {
 		"typescript-document": "0.0.8",
