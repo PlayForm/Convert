@@ -1,8 +1,8 @@
 {
-	"name": "convert-astro",
+	"name": "@playform/convert",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🫶 AstroJS conversion utilities. Convert your files automatically.",
+	"description": "🫶 Convert.",
 	"keywords": [
 		"astro-integration",
 		"astro-component",

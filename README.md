@@ -1,4 +1,4 @@
-# [convert-astro] 🫶
+# 🫶 [@playform/convert]
 
 This **[Astro integration][astro-integration]** converts all your files into
 different formats.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `convert-astro`, run the following from your project directory and
+To install `@playform/convert`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add convert-astro
+npx astro add @playform/convert
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add convert-astro
+yarn astro add @playform/convert
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add convert-astro
+pnpx astro add @playform/convert
 ```
 
 ### Install dependencies manually
 
-First, install the `convert-astro` integration like so:
+First, install the `@playform/convert` integration like so:
 
 ```sh
-npm install -D -E convert-astro
+npm install -D -E @playform/convert
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import Convert from "convert-astro";
+import Convert from "@playform/convert";
 
 export default {
 	integrations: [Convert()],
@@ -67,7 +67,7 @@ You can override any of the default options from the configurations of:
 or disable them entirely:
 
 ```ts
-import Convert from "convert-astro";
+import Convert from "@playform/convert";
 
 export default {
 	integrations: [
@@ -81,7 +81,7 @@ export default {
 Set `Logger` to `0` if you do not want to see debug messages. Default is `2`.
 
 ```ts
-import Convert from "convert-astro";
+import Convert from "@playform/convert";
 
 export default {
 	integrations: [
@@ -92,7 +92,7 @@ export default {
 };
 ```
 
-[convert-astro]: https://npmjs.org/convert-astro
+[@playform/convert]: https://npmjs.org/@playform/convert
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog

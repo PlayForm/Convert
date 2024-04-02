@@ -25,7 +25,7 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 	}
 
 	return {
-		name: "convert-astro",
+		name: "@playform/convert",
 		hooks: {
 			"astro:build:done": async ({ dir }) => {
 				if (!Paths.size) {
