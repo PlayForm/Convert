@@ -7,7 +7,6 @@
 		"astro",
 		"astro-integration",
 		"astro-component",
-		"astro",
 		"compression",
 		"javascript",
 		"performance",
@@ -31,14 +30,14 @@
 	"main": "./Target/Export.js",
 	"types": "./Target/Export.d.ts",
 	"scripts": {
-		"Document": "TypeScriptDocument 'Source/**/*.ts'",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"@playform/pipe": "0.0.2"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.1"
+		"@playform/build": "0.0.2"
 	},
 	"optionalDependencies": {
 		"@playform/document": "0.0.2"
