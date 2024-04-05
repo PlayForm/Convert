@@ -36,11 +36,11 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 	};
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Integration.js";
+import type Type from "@Interface/Integration.js";
 
 import type Path from "@playform/pipe/Target/Type/Path.js";
 
-export const { default: Default } = await import("../Variable/Option.js");
+export const { default: Default } = await import("@Variable/Option.js");
 
 export const { default: Merge } = await import(
 	"@playform/build/Target/Function/Merge.js"
