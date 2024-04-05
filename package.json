@@ -11,13 +11,13 @@
 		"convert",
 		"withastro"
 	],
-	"homepage": "https://github.com/Playform/ConvertAstro#ReadMe",
+	"homepage": "https://github.com/Playform/Convert#ReadMe",
 	"bugs": {
-		"url": "https://github.com/Playform/ConvertAstro/issues"
+		"url": "https://github.com/Playform/Convert/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/ConvertAstro.git"
+		"url": "git+https://github.com/Playform/Convert.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
