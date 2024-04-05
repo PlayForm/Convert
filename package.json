@@ -7,9 +7,8 @@
 		"astro",
 		"astro-integration",
 		"astro-component",
-		"compression",
-		"javascript",
-		"performance",
+		"astro-convert",
+		"convert",
 		"withastro"
 	],
 	"homepage": "https://github.com/Playform/ConvertAstro#ReadMe",
