@@ -16,8 +16,8 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `@playform/convert`, run the following from your project directory and
-follow the prompts:
+To install `@playform/convert`, run the following from your project directory
+and follow the prompts:
 
 Using NPM:
 
