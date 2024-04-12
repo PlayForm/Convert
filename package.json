@@ -2,7 +2,7 @@
 	"name": "@playform/convert",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🫶 Convert.",
+	"description": "🫶 Convert",
 	"keywords": [
 		"astro",
 		"astro-integration",
