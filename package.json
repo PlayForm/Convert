@@ -12,19 +12,19 @@
 		"withastro",
 		"playform"
 	],
-	"homepage": "HTTPS://GitHub.Com/Playform/Convert#readme",
+	"homepage": "HTTPS://GitHub.Com/PlayForm/Convert#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/Convert/issues"
+		"url": "HTTPS://GitHub.Com/PlayForm/Convert/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/Playform/Convert.git"
+		"url": "git+HTTPS://github.com/PlayForm/Convert.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "⛲ Source ⁄ 🚪 Open —",
-		"email": "Source/Open@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"email": "Source/Open@PlayForm.Cloud",
+		"url": "HTTPS://PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Export.js",
