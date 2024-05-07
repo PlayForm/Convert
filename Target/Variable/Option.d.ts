@@ -11,13 +11,13 @@ declare const _default: Omit<{} & {
         Path: string;
         Logger: 2;
         Action: {
-            Read: ({ Input }: any) => Promise<string>;
-            Wrote: ({ Buffer }: any) => Promise<any>;
-            Passed: (On: any) => Promise<true>;
-            Failed: ({ Input }: any) => Promise<string>;
-            Accomplished: ({ Input, Output }: any) => Promise<string>;
-            Fulfilled: ({ File }: any) => Promise<string | false>;
-            Changed: (Plan: any) => Promise<any>;
+            Read: ({ Input }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
+            Wrote: ({ Buffer }: import("@playform/pipe/Target/Interface/File").default) => Promise<import("@playform/pipe/Target/Type/Buffer").Type>;
+            Passed: (On: import("@playform/pipe/Target/Interface/File").default) => Promise<true>;
+            Failed: ({ Input }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
+            Accomplished: ({ Input, Output }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
+            Fulfilled: ({ File }: import("@playform/pipe/Target/Interface/Plan").default) => Promise<string | false>;
+            Changed: (Plan: import("@playform/pipe/Target/Interface/Plan").default) => Promise<import("@playform/pipe/Target/Interface/Plan").default>;
         };
         File: string;
         Exclude: false;
