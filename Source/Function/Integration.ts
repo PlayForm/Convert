@@ -27,8 +27,8 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 	return {
 		name: "@playform/convert",
 		hooks: {
-			"astro:build:done": async ({ dir }) => {
-				if (!Paths.size) {
+			"astro:build:done": ({ dir }) => {
+				if (Paths.size === 0) {
 					Paths.add(dir);
 				}
 			},
@@ -36,7 +36,7 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 	};
 }) satisfies Interface as Interface;
 
-import type Interface from "@Interface/Integration.js";
+import type Interface from "../Interface/Integration.js";
 
 import type Path from "@playform/pipe/Target/Type/Path.js";
 
