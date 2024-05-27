@@ -30,16 +30,13 @@
 	"main": "./Target/Export.js",
 	"types": "./Target/Export.d.ts",
 	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"@playform/pipe": "0.0.5"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.9",
-		"@playform/document": "0.0.7"
-	},
+		"@playform/build": "0.0.9"},
 	"publishConfig": {
 		"access": "public"
 	}
