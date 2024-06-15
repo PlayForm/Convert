@@ -33,7 +33,7 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@playform/pipe": "0.0.5"
+		"@playform/pipe": "0.0.6"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.11"
