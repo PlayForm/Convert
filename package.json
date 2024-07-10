@@ -30,7 +30,7 @@
 	"main": "./Target/Export.js",
 	"types": "./Target/Export.d.ts",
 	"scripts": {
-		"Run": "Build 'Source/**/*.ts' -W",
+		"Run": "Build 'Source/**/*.ts' --Watch",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
