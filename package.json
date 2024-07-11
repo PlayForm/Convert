@@ -36,7 +36,7 @@
 		"@playform/pipe": "0.0.6"
 	},
 	"devDependencies": {
-		"@playform/build": "0.1.0"
+		"@playform/build": "0.1.1"
 	},
 	"publishConfig": {
 		"access": "public"
