@@ -37,7 +37,7 @@
 		"@playform/pipe": "0.0.6"
 	},
 	"devDependencies": {
-		"@playform/build": "0.1.1"
+		"@playform/build": "0.1.2"
 	},
 	"publishConfig": {
 		"provenance": true,
