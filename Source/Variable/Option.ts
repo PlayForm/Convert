@@ -1,3 +1,5 @@
+import type Option from "@playform/pipe/Target/Interface/Option.js";
+
 /**
  * @module Option
  *
@@ -7,5 +9,3 @@ export default (
 ).default(await import("@playform/pipe/Target/Variable/Option.js"), {
 	Action: {},
 } satisfies Option);
-
-import type Option from "@playform/pipe/Target/Interface/Option.js";
