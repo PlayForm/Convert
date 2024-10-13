@@ -62,7 +62,7 @@ export default {
 
 You can override any of the default options from the configurations of:
 
--   [sharp](src/Option/Image.ts)
+-   [`sharp`](src/Option/Image.ts)
 
 or disable them entirely:
 
@@ -97,4 +97,4 @@ export default {
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this integration.
+See [`CHANGELOG.md`](CHANGELOG.md) for a history of changes to this integration.
