@@ -1,6 +1,6 @@
 # 🫶 [@playform/convert]
 
-This **[Astro integration][astro-integration]** converts all your files into
+This **[`Astro integration`][astro-integration]** converts all your files into
 different formats.
 
 ## 🚀 Installation
