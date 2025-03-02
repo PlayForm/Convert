@@ -62,7 +62,7 @@ export default {
 
 You can override any of the default options from the configurations of:
 
--   [`sharp`](src/Option/Image.ts)
+- [`sharp`](src/Option/Image.ts)
 
 or disable them entirely:
 
