@@ -5,5 +5,5 @@ import type Interface from "../Interface/Integration.js";
  */
 declare const _default: Interface;
 export default _default;
-export declare const Default: typeof import("@playform/pipe/Target/Variable/Option.js");
-export declare const Merge: <T extends object>(Target: T, Source: T) => T;
+export declare const Default: void;
+export declare const Merge: <Target extends object, Ts extends readonly unknown[]>(target: Target, ...objects: Ts) => void;

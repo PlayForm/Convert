@@ -2,5 +2,5 @@
  * @module Option
  *
  */
-declare const _default: typeof import("@playform/pipe/Target/Variable/Option.js");
+declare const _default: void;
 export default _default;
