@@ -92,8 +92,8 @@ export default {
 };
 ```
 
-[@playform/convert]: HTTPS://NPMJS.Org/@playform/convert
-[astro-integration]: HTTPS://docs.astro.build/en/guides/integrations-guide/
+[@playform/convert]: https://NPMJS.Org/@playform/convert
+[astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
 

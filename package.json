@@ -12,9 +12,9 @@
 		"withastro",
 		"playform"
 	],
-	"homepage": "HTTPS://GitHub.Com/PlayForm/Convert#readme",
+	"homepage": "https://GitHub.Com/PlayForm/Convert#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/PlayForm/Convert/issues"
+		"url": "https://GitHub.Com/PlayForm/Convert/issues"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +24,7 @@
 	"author": {
 		"name": "Source ✍🏻 Open 👐🏻",
 		"email": "Source/Open@PlayForm.Cloud",
-		"url": "HTTPS://PlayForm.Cloud"
+		"url": "https://PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Export.js",
